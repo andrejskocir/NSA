@@ -1,0 +1,294 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgba(15, 112, 153, 0.5),rgb(5, 37, 53, 1)),url(../images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Poppins',sans-serif;
+    
+}
+/*styling za glavni div*/
+.glavni{
+    position: relative;
+    padding: 10px 30px 0 30px;
+    width: 1000px;
+    background: #ffffff;
+    box-shadow: 0 20px 20px 0px rgba(0,0,0,0.4);
+    margin: auto;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 24px;
+}
+/*Majhen text v headerju*/
+.header p{
+    font-size: 0.5em;
+    margin-right: 12em;
+}
+/*Logo v headerju*/
+.logo{
+    margin-left: 200px;
+    padding-top: 10px;
+    width: 300px;
+    height: 70px;
+    background: url("../images/logo.png");
+    background-repeat: no-repeat;
+      background-size: cover;
+}
+/*velikost pisave za vse h1 naslove v dokumentu*/
+h1{
+    font-size: 1.2em;
+}
+.vsebina{
+    padding: 0 1.5em;
+}
+.vsebina p{
+    font-size: 0.9em;
+}
+label{
+    font-size: 0.9em;
+}
+
+form input, textarea, select {
+    margin: 0.125em 0;
+    font-family: inherit;
+    font-weight: 600;
+    background: #e6f3ff;
+    transition: 0.5s ease-in-out;
+    padding: 0.3em 0.3em;
+    font-size: 0.9em;
+    border: 0.175em solid #99ddff;
+    border-radius: 0.4rem;
+}
+form input:hover, textarea:hover{
+    background: #fff;
+}
+
+input:focus::placeholder{
+  color: transparent;
+}
+
+:focus{
+    background: #fff;
+    outline: none;
+}
+/*styling za c0*/
+#posta{
+    margin-left: 0.7750em;
+}
+#bivalisce{
+    margin-left: 0.9em;
+}
+#ime, #bivalisce, #posta{
+    width: 18.750em;
+}
+/*styling za c1-0*/
+.c1-0{
+    width: 950px;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 0.625em;   
+}
+.c1-0 p {
+    display: inline-block;
+    margin-right: 0.625em;
+}
+.c1-0 label{
+    color:#808080;
+}
+.c1-0 span{
+    margin: 0 0.3em;
+}
+input[type=select]:hover{
+    background: #fff;
+}
+/*styling za c1*/
+.c1{
+    width: 59.375em;
+    display: flex;
+    margin-top: 0.625em;
+    align-items: flex-start;
+}
+.c1 > *{
+    margin-right: auto;
+}
+#davSt{
+    border:none;
+    background: url(../images/app-svgrepo-com.png);
+    background-size: cover;
+    outline: none;
+    width: 1em;
+    font-size: 1.2em; 
+    padding-left: 0.7em;   
+}
+#stKZZ{
+    border:none;
+    background: url(../images/app-svgrepo-com.png);
+    background-size: cover;
+    outline: none;
+    width: 1em;
+    font-size: 1.2em; 
+    padding-left: 0.7em; 
+}
+
+
+#n3 p{
+    margin-top: 0;
+    font-size: 0.5em;
+}
+/*styling za c2*/
+.c2{
+    display: flex;
+}
+.c2 > *{
+    margin-right: 1.250em;
+}
+#email{
+    width: 15.625em;
+}
+/*styling za c3*/
+.c3 span{
+    font-size: 1.3em;
+    font-weight: 600;
+}
+textarea{
+    width: 920px;
+    height: 80px;
+    resize: none;
+    margin-bottom: 0.125em;
+}
+.c3 input[type=text]{
+    width: 30px;
+    height: 20px;
+    margin:0;
+}
+.c3 p{
+    display: inline-block;
+    margin-left: 0.5em;
+}
+#prek2, #prek3{
+    font-size: 0.9em;
+    margin: 0.5em 0;
+}
+/*styling za c4*/
+.c4{
+    margin-top: 20px;
+    width: 950px;
+    display: flex;
+    align-items: center;
+}
+.c4 #KrajInDatum{
+    margin-right: 0.625em;
+}
+
+#date1{
+    margin-right: 2em;
+    width: 130px;
+	padding:0.3em 0 0.3em 0.3em;
+	
+}
+.c4 label{
+    margin-right: 0.625em;
+}
+.c4 p{
+    font-size: 1em;
+    margin-right: 0.8em;
+}
+
+#Podpis2:focus{
+    outline: none;
+}
+/*styling za c4-0*/
+.c4-0{
+    display: flex;
+    align-items: center;
+}
+#sig-clearBtn{
+    margin-left: 10px;
+}
+#sig-canvas {
+    border: 0.175em solid #99ddff;
+    border-radius: 0.4rem;
+    background: #e6f3ff;
+    cursor:crosshair;
+  }
+
+/*styling za c5*/
+.c5 p{
+    transform: rotate(-90deg);
+    font-size: 0.5em;
+    position: absolute;
+    left: -60px;
+    bottom: 270px;
+}
+/*styling za c6*/
+.c6{
+    margin-top: 13em;
+}
+.c6 p{
+    color: #ccc;
+}
+/*styling za c7*/
+.c7 > *{
+    margin-right: 0.625em;
+}
+.c7{
+    display: flex;
+    align-items: center;
+}
+.c7 #date2{
+    margin-right: 2em;
+    width: 130px;
+	padding:0.3em 0 0.3em 0.3em;
+}
+.c7 #Podpis2{
+    border: none;
+    border-bottom: 0.125em solid #99ddff;
+    border-radius: 0;
+}
+/*crta med c7 in c8*/
+#line{
+    margin-top: 1.250em;
+    height: 0.125em;
+    width: 100%;
+    background: #99ddff;
+
+    
+}
+/*styling za c8*/
+.c8{
+    margin-top: 0.8em;
+    display: flex;
+    justify-content: center;
+}
+
+
+input[type=submit] {
+    padding: 0.750em 2.125em;
+    cursor: pointer;
+    box-shadow: 0 0.313em 0.625em 0em rgba(0,0,0,0.4);
+    background: #e6f3ff;
+    margin-bottom: 20px;
+}
+
+
+input[type=submit]:hover{
+    background: #fff;
+}
+
+/*odstranitev puščic pri input type number*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+  

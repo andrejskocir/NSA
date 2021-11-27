@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="si">
+<head>		
+	<title>Obrazec-za-prekinitev-zavarovanja</title>
+	<meta charset="UTF-8" />
+	<link rel="shortcut icon" type="image/ico" href="images/favicon.ico" />
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+</head>
+<body>
+    <div class="glavni">
+        <div class="header"> 
+            <div>
+            <p>Vzajemna zdravstvena zavarovalnica, d.v.z., Vošnjakova ulica 2, 1000 Ljubljana<br />
+            Telefon: 080 20 60, ID za DDV Vzajemne: SI87984385, Matična št.: 1430521<br />
+            Družba je vpisana pri Okrožnem sodišču v Ljubljani, št. reg. vložka 1/32396/00<br />
+            Osnovni kapital: 3.138.040,39 EUR, Št. transakcijskega računa: SI56 0310 0100 1698 245</p>
+            </div>
+            <div class="logo">
+            </div>
+        
+        </div>
+        <div class="vsebina">
+                <div><h1>Obrazec za prekinitev zavarovanja</h1></div>
+                <div><p>Prosimo, da natisnjen obrazec izpolnite ČITLJIVO s tiskanimi črkami in ga OBVEZNO podpišite. Obrazec pošljite na naš <br />naslov (glejte poslovalnice Vzajemne). </p></div>
+                <div class="obrazec">
+                    <form method="get" id="form">
+                    <div class="c0">
+                        <div>
+                        <label for="ime">Zavarovalec / zavarovanec:</label>
+                        <input type="text" name="ime" id="ime" required >
+                        </div>
+                        <div>  
+                        <label for="bivalisce">Naslov stalnega bivališča:</label>
+                        <input type="text" name="bivalisce" id="bivalisce" required >
+                        </div>
+                        <div>
+                         <label for="posta">Naslov za pošiljanje pošte:</label>
+                        <input type="text" name="posta" id="posta" required >
+                        </div>
+                    </div>
+                    <div class="c1-0">
+                        <div id="n1">
+                            <p>Datum rojstva:</p>
+                            <span>
+                                <label for="day">Dan:</label>
+                                <select id="day" required></select>
+                            </span>
+                            <span>
+                                <label for="month">Mesec:</label>
+                                <select id="month" required></select>
+                            </span>
+                            <span>
+                                <label for="year">Leto:</label>
+                                <select id="year" required>Leto:</select>
+                            </span>
+                           
+                        </div>
+                    </div>    
+                    <div class="c1">
+                        <div id="n2">
+                        <label for="davSt">Davčna številka:</label>
+                            <input type="text" name="davSt" id="davSt" maxlength="1" required oninput="this.value=this.value.replace(/[^0-9]/g,'');">
+                            <input type="text" name="davSt" id="davSt" maxlength="1" required oninput="this.value=this.value.replace(/[^0-9]/g,'');">
+                            <input type="text" name="davSt" id="davSt" maxlength="1" required oninput="this.value=this.value.replace(/[^0-9]/g,'');">
+                            <input type="text" name="davSt" id="davSt" maxlength="1" required oninput="this.value=this.value.replace(/[^0-9]/g,'');">
+                            <input type="text" name="davSt" id="davSt" maxlength="1" required oninput="this.value=this.value.replace(/[^0-9]/g,'');">
+                            <input type="text" name="davSt" id="davSt" maxlength="1" required oninput="this.value=this.value.replace(/[^0-9]/g,'');">
+                            <input type="text" name="davSt" id="davSt" maxlength="1" required oninput="this.value=this.value.replace(/[^0-9]/g,'');">
+                            <input type="text" name="davSt" id="davSt" maxlength="1" required oninput="this.value=this.value.replace(/[^0-9]/g,'');">
+                        </div>
+                        <div id="n3">
+                        <label for="stKZZ">Številka KZZ:</label>
+                            <input type="text" name="stKZZ" id="stKZZ" maxlength="1" required oninput="this.value=this.value.replace(/[^0-9]/g,'');">
+                            <input type="text" name="stKZZ" id="stKZZ" maxlength="1" required oninput="this.value=this.value.replace(/[^0-9]/g,'');">
+                            <input type="text" name="stKZZ" id="stKZZ" maxlength="1" required oninput="this.value=this.value.replace(/[^0-9]/g,'');">
+                            <input type="text" name="stKZZ" id="stKZZ" maxlength="1" required oninput="this.value=this.value.replace(/[^0-9]/g,'');">
+                            <input type="text" name="stKZZ" id="stKZZ" maxlength="1" required oninput="this.value=this.value.replace(/[^0-9]/g,'');">
+                            <input type="text" name="stKZZ" id="stKZZ" maxlength="1" required oninput="this.value=this.value.replace(/[^0-9]/g,'');">
+                            <input type="text" name="stKZZ" id="stKZZ" maxlength="1"  required oninput="this.value=this.value.replace(/[^0-9]/g,'');">
+                            <input type="text" name="stKZZ" id="stKZZ" maxlength="1" required oninput="this.value=this.value.replace(/[^0-9]/g,'');">
+                            <input type="text" name="stKZZ" id="stKZZ" maxlength="1" required oninput="this.value=this.value.replace(/[^0-9]/g,'');">
+                        <p>(devetmestna št. nad imenom osebe na kartici zdravstvenega zavarovanja)</p>
+                        </div>                      
+                    </div>
+                    <div class="c2">
+                        <div id="n4">   
+                        <label for="email">Elektronski naslov:</label>
+                        <input type="email" name="email"   id="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+                        </div>
+                        <div id="n5">   
+                        <label for="telSt">Telefonska / GSM številka:</label>
+                        <input type="text" maxlength="9" name="telSt" id="telSt" required oninput="this.value=this.value.replace(/[^0-9]/g,'');" />
+                        </div>
+                    </div>
+                    <div class="c3">
+                        <p id="prek1"><span>Želim prekiniti</span> (navedite vrsto zavarovanja in številko police/dodatka):</p>
+                        <textarea id="ta1" form="form" required name="ta" onKeyDown="textCounter(this.form.ta,this.form.countDisplay);" onKeyUp="textCounter(this.form.ta,this.form.countDisplay);"></textarea>
+                        <input readonly type="text" name="countDisplay" size="3" value="300"><p>Preostalih znakov</p>
+                        <p id="prek2">Zavarovanje bo prekinjeno v skladu s splošnimi pogoji zavarovanja. V kolikor obstajajo objektivni razlogi za predčasno <br /> 
+                        prekinitev zavarovanja, prosimo, da te navedete in vlogi priložite ustrezna dokazila (npr. izpis o izgubi statusa v OZZ, o težkem 
+                        socialno-finančnem položaju, ipd.):</p>
+                        <textarea id="ta2" form="form" required name="ta2"  onKeyDown="textCounter(this.form.ta2,this.form.countDisplay2);" onKeyUp="textCounter(this.form.ta2,this.form.countDisplay2);"></textarea>
+                        <input readonly type="text" name="countDisplay2" size="3" value="300"><p>Preostalih znakov</p>
+                        <p id="prek3">Seznanjen sem, da je Politika zasebnosti Vzajemne, kjer lahko prejmem vse informacije o obdelavi osebnih podatkov, dostopna<br /> na www.vzajemna.si. </p>
+                    </div>
+                    <div class="c4">
+                        <label for="KrajInDatum">Kraj in datum:</label>
+                        <input type="text" name="Kraj1" id="KrajInDatum"  required > 
+                        <input type="date" name="Datum1" id="date1" required >
+                        <div class="c4-0">
+                        <p>Podpis:</p>
+                            <div class="signature-pad">
+                                 <canvas id="sig-canvas" width="250" height="80" name="canvas"></canvas>     
+                             </div>
+                            <div class="pocisti">
+                                <input type="button" id="sig-clearBtn" value="Počisti">
+                            </div>
+                        
+                    </div>
+                    </div>
+                    <div class="c5">
+                        <p>S-005 (Zahtevek za prekinitev zavarovanja, 2/2020)</p>
+                    </div>
+                    <div class="c6">
+                        <p>Izpolni Vzajemna zdravstvena zavarovalnica</p>
+                    </div>
+                    <div class="c7">    
+                        <label for="KrajInDatum2">Kraj, datum:</label>
+                        <input type="text" name="Kraj2" id="KrajInDatum2" required>
+                        <input type="date" name="Datum2" id="date2" required>
+                        <label for="Podpis2">Obrazec prevzel:</label>
+                        <input type="text" name="Podpis2" id="Podpis2" required>
+                    </div>
+                    <div id="line"></div>
+                    <div class="c8">
+                        <input type="submit" id="submit" value="NAPREJ">
+                    </div>      
+                    </form>
+                </div>
+            
+        </div>
+</div>
+</body>
+<script src="js/script.js"></script>
+<script src="js/signPad.js"></script>
+</html>
