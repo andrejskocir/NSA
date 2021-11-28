@@ -1,1 +1,1 @@
-andrejskocir.github.io/NSA/obrazec
+https://andrejskocir.github.io/NSA/obrazec
