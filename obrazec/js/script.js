@@ -1,3 +1,4 @@
+
 const yearSelect = document.getElementById("year");
 const monthSelect = document.getElementById("month");
 const daySelect = document.getElementById("day");
@@ -103,10 +104,5 @@ daySelect.onchange = function() {
 	document.getElementById("date2").readOnly= true;
 	document.getElementById("date2").valueAsDate= new Date();
 
-    const myForm = document.getElementById("form");
+  
 
-    myForm.addEventListener("submit", (e) => {
-        
-        swal({title:"Vaš obrazec je bil poslan.",text:"",icon: "success", button: "OK"});
-        e.preventDefault();
-    });
